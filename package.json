@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Create virtual host files for Linux system",
   "main": "./lib/index.js",
+  "config": {
+    "unsafe-perm": true
+  },
   "scripts": {
     "preinstall": "npm install -g command-line-args chalk"
   },
