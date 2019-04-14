@@ -1,5 +1,10 @@
 # VHost Generator #
 
+
+```
+npm install -g git+https://git@github.com/marinct/vhost-generator
+```
+
 A virtual host file generator for Ubuntu machine with Apache2
 
 Requires administrative rights*
