@@ -4,19 +4,19 @@ A virtual host file generator for Ubuntu machine with Apache2
 
 Requires administrative rights*
 
-*Commands:
---help        Help
---create -c   Create new virtual host
---remove -r   Remove a vhost by domain
+Commands:
+* --help        Help
+* --create -c   Create new virtual host
+* --remove -r   Remove a vhost by domain
 
-*Options:
---domain -d   Domain**
---path   -p   Path to project root, default: curent working directory
---public      Public folder, ex: public_html, web, public, default: none
---ip          The IP for vhost, default: *
---port        The access port for vhost, default: 80
---ssl         Secure vhost, default: false
---template    Template of virtual host file, default: default
+Options:
+* --domain -d   Domain**
+* --path   -p   Path to project root, default: curent working directory
+* --public      Public folder, ex: public_html, web, public, default: none
+* --ip          The IP for vhost, default: *
+* --port        The access port for vhost, default: 80
+* --ssl         Secure vhost, default: false
+* --template    Template of virtual host file, default: default
 **required
 
 Example:
