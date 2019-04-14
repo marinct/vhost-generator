@@ -1,0 +1,19 @@
+{
+  "name": "vhost-generator",
+  "version": "1.0.0",
+  "description": "Create virtual host files for Linux system",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "null"
+  },
+  "bin": {
+    "vhost": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "author": "Marin Preda",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "readline-sync": "^1.4.9"
+  }
+}
