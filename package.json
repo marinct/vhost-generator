@@ -7,7 +7,7 @@
     "unsafe-perm": true
   },
   "scripts": {
-    "preinstall": "npm install -g command-line-args chalk"
+    "preinstall": "(npm list command-line-args@5.1.1 || npm install -g command-line-args@5.1.1) && (npm list chalk@1.4.9 || npm install -g chalk@1.4.9)"
   },
   "bin": {
     "vhost": "./bin/global.js"
