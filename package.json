@@ -4,7 +4,7 @@
   "description": "Create virtual host files for Linux system",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "null"
+    "preinstall": "npm install command-line-args chalk"
   },
   "bin": {
     "vhost": "./bin/global.js"
