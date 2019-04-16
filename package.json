@@ -1,21 +1,17 @@
 {
   "name": "vhost-generator",
-  "version": "1.0.0",
+  "version": "1.0.9",
   "description": "Create virtual host files for Linux system",
-  "main": "./lib/index.js",
-  "config": {
-    "unsafe-perm": true
-  },
-  "scripts": {
-    "preinstall": "(npm list command-line-args@5.1.1 || npm install -g command-line-args@5.1.1) && (npm list chalk@1.4.9 || npm install -g chalk@1.4.9)"
-  },
+  "keywords": ["apache", "virtual", "host", "vhost"],
+  "main": "lib/index.js",
+  "scripts": {},
   "bin": {
-    "vhost": "./bin/global.js"
+    "vhost": "bin/vhost.js"
   },
-  "preferGlobal": true,
   "author": "Marin Preda",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
+    "chalk": "^2.4.2",
     "command-line-args": "^5.1.1",
     "readline-sync": "^1.4.9"
   }

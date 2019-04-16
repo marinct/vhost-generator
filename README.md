@@ -2,7 +2,7 @@
 
 
 ```
-npm install -g git+https://git@github.com/marinct/vhost-generator
+npm install -g vhost-generator
 ```
 
 A virtual host file generator for Ubuntu machine with Apache2
