@@ -2,7 +2,16 @@
   "name": "vhost-generator",
   "version": "1.0.9",
   "description": "Create virtual host files for Linux system",
-  "keywords": ["apache", "virtual", "host", "vhost"],
+  "keywords": [
+    "apache",
+    "virtual",
+    "host",
+    "vhost"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marinct/vhost-generator.git"
+  },
   "main": "lib/index.js",
   "scripts": {},
   "bin": {
